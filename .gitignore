@@ -1,0 +1,15 @@
+# Data and caches (downloaded or rebuilt by the notebook)
+dati/
+*.pt
+*.pth
+
+# Python / Jupyter / Colab
+__pycache__/
+.ipynb_checkpoints/
+sample_data/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+.main.html
