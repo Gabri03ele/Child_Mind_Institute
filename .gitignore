@@ -1,15 +1,22 @@
-# Data and caches (downloaded or rebuilt by the notebook)
+# Data (Kaggle competition data: download it yourself, see README)
 dati/
-*.pt
-*.pth
 
-# Python / Jupyter / Colab
-__pycache__/
-.ipynb_checkpoints/
-sample_data/
-
-# OS / editor
-.DS_Store
+# Editor settings
 .vscode/
 .idea/
-.main.html
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+.env
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
+
+# Exported notebook (regenerable from main.ipynb)
+main.html
